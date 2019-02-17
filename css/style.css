@@ -59,3 +59,15 @@ footer.page-footer {
 .white-text:hover {
 font-stretch: 25px; 
 }
+#foot {
+  background-color: #0D47A1 !important;
+}
+#whole {
+  background-color: #dbe9f0 !important;
+  margin: 0;
+  width: 100%;
+}
+#cyan {
+  color: #84ffff !important;
+}
+

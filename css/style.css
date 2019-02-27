@@ -69,5 +69,17 @@ font-stretch: 25px;
 }
 #cyan {
   color: #84ffff !important;
+
+}
+#group {
+  float: right;
+  display: flex;
+  flex-direction: column;
+
+}
+#movie
+{
+  height: 20px;
+  width: 20px;
 }
 

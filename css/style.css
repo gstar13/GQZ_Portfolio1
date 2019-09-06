@@ -21,7 +21,7 @@ p {
 }
 
 .parallax-container {
-  min-height: 380px;
+  min-height: 500px;
   line-height: 0;
   height: auto;
   color: rgba(255, 255, 255, 0.9);
@@ -41,6 +41,11 @@ p {
 }
 
 @media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+@media only screen and (max-width : 350px) {
   #index-banner .section {
     top: 0;
   }
@@ -82,7 +87,8 @@ font-stretch: 25px;
   height: 20px;
   width: 20px;
 }
-#a:hover {
+.white-text:hover {
   display: flex;
-  color: blueviolet;
+  
+  background-color: blueviolet;
 }
